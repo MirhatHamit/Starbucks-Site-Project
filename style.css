@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:wght@600&family=Poppins:wght@100;300&display=swap');
+
+
+
+
+*{
+        
+          font-family: 'Poppins';
+         
+}
+
+section{
+          position: relative;
+          width: 80%;
+          min-height: 80%;
+          padding: 100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #fff;
+          
+}
+
+header{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 95%;
+          padding: 20px 50px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+
+header .logo{
+          position: relative;
+          max-width:80px ;
+}
+
+header ul{
+          position:relative;
+          display: flex;
+
+}
+header ul li{
+          list-style: none;
+}
+
+header ul li a{
+          display: flex;
+          color: #333;
+          font-weight: 500;
+          font-size: 1.2rem;
+          margin-left: 50px;
+          text-decoration: none;
+}
+header ul li a:hover{
+          background-color: #017143;
+          color: white;
+          border-radius: 5px;
+          transition: .7s all;
+          transform: translateY(-10px);
+}
+
+.content{
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+
+.content .textBox{
+          position: relative;
+          max-width:600px ;
+}
+
+.content .textBox h2{
+          color: #333;
+          font-size: 4rem;
+          line-height: 3.7rem;
+          font-weight: 400;
+}
+
+.content .textBox h2 span{
+          color: #017143;
+          font-size: 5rem;
+          font-weight: 900;
+
+}
+
+.content .textBox p{
+          color: #333;
+}
+.content .textBox a{
+          display: inline-block;
+          margin-top: 20px;
+          padding: 8px 20px;
+          background: #017143;
+          color: #fff;
+          border-radius: 40px;
+          font-weight: 500;
+          letter-spacing: 1px;
+          text-decoration: none;
+
+}
+.content .textBox a:hover{
+          transform: translateX(10px);
+          transition: .5s all;
+      color: purple;
+      background-color: lightgreen;
+}
+
+
+.content .imgBox{
+          width: 500px;
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 30px;  
+          margin-top: 30px;
+}
+
+.content .imgBox img{
+          max-width:340px ;
+}
+
+
+.thumb{
+          position: absolute;
+          left: 50%;
+          bottom: 20px;
+          transform:translateX(-50%) ;
+          display: flex;
+}
+
+.thumb li{
+         list-style: none;
+         display: inline-block;
+         margin: 0 20px;
+         cursor: pointer; 
+         transition: 0.5s;
+      
+}
+
+.thumb li:hover{
+          transform: translateY(-15px);
+}
+
+.thumb li img{
+          max-width: 60px;
+}
+
+
+.sci{
+          position: absolute;
+          top: 50%;
+          right: 30px;
+          transform: translateY(-50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+
+
+.sci li{
+          list-style: none;
+}
+.sci li a{
+          display: inline-block;
+          margin: 5px 0;
+          transform:scale(0.6) ;
+          filter:invert(1) ;
+}
+
+.sci li:hover{
+          transform: translateX(15px);
+          transition: .6s all;
+       
+}
+
+
+.circle{
+          position: absolute;
+          top: 0;
+          left: 80px;
+          width:99.5%;
+          height: 100%;
+          background: #017143;
+          clip-path: circle(600px at right 780px);
+}
+
